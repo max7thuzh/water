@@ -16,15 +16,25 @@ body {
 }
 
 .title {
-  text-align: center;
   font-size: 2rem;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+}
+
+.title, .subtitle {
+  text-align: center;
   font-weight: bold;
 }
 
 .paragraph {
   text-indent: 4rem;
-  font-family: 'PT Sans', sans-serif;
   font-size: 1.4rem;
+}
+
+.subtitle, .paragraph {
+  font-family: 'PT Sans', sans-serif;
 }
 
 .list {
