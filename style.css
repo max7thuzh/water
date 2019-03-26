@@ -41,6 +41,27 @@ body {
   font-size: 1.4rem;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  width: 10rem;
+  height: 3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgba(255, 99, 71, 0.8);
+  transition: background-color 0.2s linear;
+  border-radius: 30% 15%;
+}
+
+.button:hover {
+  background-color: brown;
+}
+
 @media (max-width: 768px) {
   .container {
     width: 90%;
